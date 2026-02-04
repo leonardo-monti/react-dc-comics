@@ -1,0 +1,26 @@
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+header .logo {
+    margin-left: 50px;
+}
+
+header .nav {
+    margin-left: 25rem;
+}
+
+header .nav ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
