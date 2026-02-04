@@ -1,3 +1,5 @@
+/* HEADER*/
+
 header {
     display: flex;
     align-items: center;
@@ -23,4 +25,19 @@ header .nav ul {
     gap: 15px;
     margin: 0;
     padding: 0;
+}
+
+
+/* MAIN*/
+
+
+.main {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.main h2 {
+    margin-left: -30rem;
 }

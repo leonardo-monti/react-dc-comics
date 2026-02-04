@@ -1,3 +1,7 @@
 export default function Main() {
-    return <h2>MAIN</h2>;
+    return (
+        <main className="main">
+            <h2>Content goes here</h2>
+        </main>
+    )
 }
