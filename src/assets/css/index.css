@@ -63,3 +63,83 @@ header .nav ul {
 .banner-icon {
     height: 50px;
 }
+
+/* FOOTER */
+.footer {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 20px;
+    background-image: url("../assets/img/dc-logo-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: relative;
+}
+
+.footer-top::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+.footer-column {
+    position: relative;
+    z-index: 2;
+}
+
+.footer-column h4 {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-column li {
+    margin-bottom: 5px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #555;
+    padding: 20px 40px;
+}
+
+.signup-button {
+    background-color: #0284c7;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.signup-button:hover {
+    background-color: #0369a1;
+}
+
+.social-links img {
+    width: 30px;
+    margin-left: 15px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.social-links img:hover {
+    opacity: 0.8;
+}
