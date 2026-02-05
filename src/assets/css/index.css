@@ -27,6 +27,30 @@ header .nav ul {
     padding: 0;
 }
 
+/* HERO*/
+
+.hero {
+    height: 350px;
+    background-size: cover;
+    background-position: top;
+    position: relative;
+}
+
+
+.hero-button {
+    position: absolute;
+    bottom: -20px;
+    left: 50px;
+    background-color: #0284c7;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
 /* MAIN*/
 
 .main {

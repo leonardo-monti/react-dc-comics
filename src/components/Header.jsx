@@ -1,19 +1,7 @@
+import { navLinks } from "../data/navLinks";
 import logo from "../assets/img/dc-logo.png";
 
 export default function Header() {
-    const navLinks = [
-        "CHARACTERS",
-        "COMICS",
-        "MOVIES",
-        "TV",
-        "GAMES",
-        "COLLECTIBLES",
-        "VIDEOS",
-        "FANS",
-        "NEWS",
-        "SHOP",
-    ];
-
     return (
         <header>
             <div className="logo">
@@ -23,10 +11,14 @@ export default function Header() {
             <nav className="nav">
                 <ul>
                     {navLinks.map((link, index) => (
-                        <li key={index}>{link}</li>
+                        <li key={index}>
+                            <a href={link.url}>{link.text}</a>
+                        </li>
                     ))}
                 </ul>
             </nav>
         </header>
     );
 }
+
+
